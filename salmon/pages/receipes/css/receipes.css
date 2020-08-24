@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* line 9, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.title-h3 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  padding: 50px 0 12px 0;
+  color: #00519C; }
+
+/* line 17, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.wrapper {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+/* line 24, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+/* line 28, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+/* line 33, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none; }
+  /* line 37, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+  .logo img {
+    margin-right: 20px; }
+
+/* line 41, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.nav-list {
+  display: flex; }
+  /* line 43, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+  .nav-list__item {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    transition: 0.3s; }
+    /* line 49, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+    .nav-list__item:first-child {
+      margin-left: 0; }
+    /* line 52, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+    .nav-list__item:hover {
+      transform: translateY(-1px); }
+
+/* line 57, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.nav-link {
+  color: #00519C;
+  text-decoration: none; }
+
+/* line 62, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.name-logo {
+  font-weight: 900;
+  color: #00519C;
+  font-size: 20px;
+  line-height: 19px;
+  max-width: 190px; }
+
+/* line 69, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.subname-logo {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px; }
+
+/* line 76, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.title {
+  margin-top: 30px;
+  background-image: url(../../../img/trout-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 0 70px 0; }
+
+/* line 86, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.ingridients {
+  padding-bottom: 40px; }
+
+/* line 89, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.col-1 {
+  display: flex;
+  flex-direction: column; }
+
+/* line 93, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.cols-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px; }
+
+/* line 102, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.title-h4 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #00519C;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  font-weight: 500; }
+
+/* line 110, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.accent {
+  font-weight: 600; }
+
+/* line 113, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.accent-blue {
+  color: #00519C; }
+
+/* line 116, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.method {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px; }
+
+/* line 122, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.step-title {
+  font-weight: 600;
+  font-size: 20px; }
+
+/* line 126, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.step-text {
+  margin-bottom: 30px; }
+
+/* line 132, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.footer {
+  background-color: #EDF8FF;
+  padding: 45px 0; }
+
+/* line 137, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.footer-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px; }
+
+/* line 142, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.footer-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+/* line 147, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.logo-name {
+  font-size: 20px;
+  line-height: 19px;
+  color: #00519C;
+  font-weight: 900; }
+
+/* line 153, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.kosher-name {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 30px;
+  color: #000000; }
+
+/* line 159, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/receipes/#source/receipes.scss */
+.footer-text {
+  font-size: 13px;
+  line-height: 30px; }
+
+/*# sourceMappingURL=receipes.css.map */

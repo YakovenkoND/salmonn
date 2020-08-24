@@ -1,0 +1,386 @@
+@charset "UTF-8";
+/* line 9, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.title-h3 {
+  font-weight: 300;
+  font-size: 36px;
+  text-align: center;
+  padding: 50px 0 12px 0;
+  color: #00519C;
+  margin-bottom: 10px; }
+
+/* line 17, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.accent-blue {
+  color: #00519C; }
+
+/* line 20, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.wrapper {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+/* line 27, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+/* line 31, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+/* line 36, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none; }
+  /* line 40, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+  .logo img {
+    margin-right: 20px; }
+
+/* line 44, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.nav-list {
+  display: flex; }
+  /* line 46, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+  .nav-list__item {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    transition: 0.3s; }
+    /* line 52, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+    .nav-list__item:first-child {
+      margin-left: 0; }
+    /* line 55, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+    .nav-list__item:hover {
+      transform: translateY(-1px); }
+
+/* line 60, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.nav-link {
+  color: #00519C;
+  text-decoration: none; }
+
+/* line 65, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.name-logo {
+  font-weight: 900;
+  color: #00519C;
+  font-size: 20px;
+  line-height: 19px;
+  max-width: 190px; }
+
+/* line 72, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.subname-logo {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px; }
+
+/* line 79, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.promo {
+  background-color: #EDF8FF; }
+
+/* line 82, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.sub {
+  display: flex;
+  justify-content: center; }
+
+/* line 86, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.subtitle-h3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  padding-bottom: 50px;
+  max-width: 840px; }
+
+/* line 97, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.managment {
+  padding: 30px 0; }
+
+/* line 101, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.managment-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  align-items: center; }
+
+/* line 107, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.managment-text {
+  background-color: #EDF8FF;
+  padding: 30px;
+  border-radius: 10px; }
+
+/* line 112, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.managment-text__item {
+  margin-bottom: 50px; }
+  /* line 114, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+  .managment-text__item:last-child {
+    margin-bottom: 0; }
+
+/* line 118, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.managment__item-title {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 24px;
+  color: #00519C;
+  margin-bottom: 10px; }
+  /* line 125, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+  .managment__item-title img {
+    margin-right: 15px; }
+
+/* line 129, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.managment__item-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px; }
+
+/* line 139, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.pluses {
+  padding-bottom: 50px; }
+
+/* line 142, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.pluses-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px; }
+
+/* line 147, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.plus-img {
+  z-index: 3; }
+
+/* line 150, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.pluses__item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 40px;
+  background-color: #EDF8FF;
+  border-radius: 10px;
+  position: relative; }
+  /* line 157, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+  .pluses__item:after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/fish.png);
+    display: block;
+    width: 128px;
+    height: 128px;
+    z-index: 1;
+    bottom: 50px;
+    left: 8%; }
+
+/* line 169, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.pluses-block-text {
+  grid-column: 2/4; }
+
+/* line 172, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.pluses__item-title {
+  font-size: 24px;
+  line-height: 29px;
+  color: #00519C;
+  margin-bottom: 20px; }
+
+/* line 178, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.pluses__item-text {
+  font-size: 14px;
+  line-height: 24px; }
+
+/* line 185, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.relations {
+  background-color: #EDF8FF;
+  padding-bottom: 50px; }
+
+/* line 189, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.relations-inner {
+  padding-top: 30px; }
+
+/* line 192, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.desc {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center; }
+
+/* line 197, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.relations-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 131px;
+  align-items: center;
+  padding: 25px;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);
+  border-radius: 10px;
+  margin-bottom: 20px; }
+  /* line 207, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+  .relations-item img {
+    display: block;
+    width: 100%; }
+
+/* line 212, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.principle-text {
+  grid-column: 2/4; }
+
+/* line 215, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.principle-title__text {
+  margin-left: 30px; }
+
+/* line 218, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.principle-title {
+  display: flex;
+  align-items: center; }
+
+/* line 222, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.principle-number {
+  font-size: 20px;
+  line-height: 24px;
+  color: #00519C; }
+
+/* line 227, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.principle-slogan {
+  font-size: 26px;
+  line-height: 24px; }
+
+/* line 231, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.principle-text {
+  font-size: 14px;
+  line-height: 22px; }
+
+/* line 238, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.operations {
+  padding-bottom: 40px; }
+
+/* line 241, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.operations-inner {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr); }
+
+/* line 246, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.operations-item {
+  background-color: #EDF8FF;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px; }
+
+/* line 252, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.operations-item__text {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 30px; }
+
+/* line 259, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.founders {
+  padding-bottom: 70px; }
+
+/* line 262, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.founders-inner {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr); }
+
+/* line 267, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.founders-text__about {
+  font-size: 20px;
+  line-height: 24px;
+  color: #00519C;
+  margin-bottom: 5px; }
+
+/* line 273, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.founders-text__position {
+  font-style: italic;
+  color: grey;
+  font-size: 14px;
+  line-height: 24px; }
+
+/* line 279, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.description {
+  font-size: 14px;
+  line-height: 24px;
+  color: #525252;
+  margin-bottom: 30px; }
+  /* line 284, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+  .description:last-child {
+    margin-bottom: 0; }
+
+/* line 290, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.footer {
+  background-color: #EDF8FF;
+  padding: 45px 0; }
+
+/* line 294, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.footer-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 70px;
+  align-items: center; }
+
+/* line 300, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.location {
+  max-width: 350px;
+  display: flex;
+  align-items: center; }
+  /* line 304, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+  .location .location-text {
+    margin-left: 30px; }
+
+/* line 308, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.phone {
+  margin-top: 30px;
+  max-width: 300px;
+  display: flex;
+  align-items: center; }
+  /* line 313, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+  .phone .phone-text {
+    margin-left: 30px; }
+
+/* line 317, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.location, .phone {
+  font-size: 18px;
+  line-height: 30px; }
+
+/* line 321, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.footer-text {
+  display: flex;
+  flex-direction: column; }
+
+/* line 325, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.kosher-container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px; }
+  /* line 329, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+  .kosher-container .kosher-name {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 15px; }
+
+/* line 337, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.social-container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px; }
+  /* line 341, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+  .social-container img {
+    margin-left: 25px; }
+    /* line 343, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+    .social-container img:first-child {
+      margin-left: 0; }
+
+/* line 348, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.footer-text {
+  font-size: 13px;
+  line-height: 30px;
+  margin-top: 30px; }
+
+/* line 353, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.footer-map {
+  grid-column: 2/4; }
+
+/* line 356, ../../../../../Desktop/RoadMap/Сайты/salmon/pages/services/#source/company.scss */
+.footer-map img {
+  display: block;
+  width: 100%; }
+
+/*# sourceMappingURL=company.css.map */
